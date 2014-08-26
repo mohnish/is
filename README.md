@@ -2,6 +2,8 @@
 
 A tiny component to detect the type of a variable.
 
+![https://api.travis-ci.org/mohnish/is.js.svg](https://api.travis-ci.org/mohnish/is.js.svg)
+
 ## API
 
 ### new is(variable)
