@@ -25,40 +25,43 @@ Browser
 
 ### new is(variable)
 
-```
+```js
 var foo = new is('MT');
 ```
 
 or
 
-```
+```js
 var foo = is(1); // skip the new keyword
 ```
 
 ### is.type
 
-```
+```js
 var foo = is([]);
 foo.type
 // => 'Array'
 ```
 
 ### is#isArray()
-```
+
+```js
 var foo = is([]);
 foo.isArray()
 // => true
 ```
 
 ### is#isObject()
-```
+
+```js
 var foo = is({});
 foo.isObject()
 // => true
 ```
 
 ### is#isNumber()
-```
+
+```js
 var foo = is(1);
 foo.isNumber()
 // => true
@@ -74,42 +77,48 @@ foo.isString()
 ```
 
 ### is#isUndefined()
-```
+
+```js
 var foo = is(undefined);
 foo.isUndefined()
 // => true
 ```
 
 ### is#isNull()
-```
+
+```js
 var foo = is(null);
 foo.isNull()
 // => true
 ```
 
 ### is#isFunction()
-```
+
+```js
 var foo = is(function() { return true; });
 foo.isFunction()
 // => true
 ```
 
 ### is#isBoolean()
-```
+
+```js
 var foo = is(true);
 foo.isBoolean()
 // => true
 ```
 
 ### is#isDate()
-```
+
+```js
 var foo = is(new Date);
 foo.isDate()
 // => true
 ```
 
 ### is#isRegExp()
-```
+
+```js
 var foo = is(/MT/);
 foo.isRegExp()
 // => true
