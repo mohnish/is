@@ -1,0 +1,31 @@
+{
+  "name": "is.js",
+  "version": "0.0.1",
+  "description": "A tiny component to detect the type of a variable",
+  "main": "is.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohnish/is.js.git"
+  },
+  "keywords": [
+    "is",
+    "is-a"
+  ],
+  "author": "Mohnish Thallavajhula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohnish/is.js/issues"
+  },
+  "homepage": "https://github.com/mohnish/is.js"
+}

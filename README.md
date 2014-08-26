@@ -96,6 +96,11 @@ foo.isRegExp()
 // => true
 ```
 
+### Running test
+
+- First run `npm install -d`
+- Then, run `make`
+
 ## License
 
 (The MIT License)
