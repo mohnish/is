@@ -4,6 +4,23 @@ A tiny component to detect the type of a variable.
 
 ![https://api.travis-ci.org/mohnish/is.js.svg](https://api.travis-ci.org/mohnish/is.js.svg)
 
+## Installation
+
+- Node `npm install is.js`
+- Browser TODO
+
+## Usage
+
+Node
+
+```js
+`var is = require('is.js');`
+```
+
+Browser
+
+### TODO
+
 ## API
 
 ### new is(variable)
