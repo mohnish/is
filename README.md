@@ -126,7 +126,7 @@ foo.isRegExp()
 
 ### Running tests
 
-- First run `npm install -d`
+- First run `npm install`
 - Then, run `make`
 
 ## License
