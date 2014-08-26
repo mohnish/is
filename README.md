@@ -14,7 +14,7 @@ A tiny component to detect the type of a variable.
 Node
 
 ```js
-`var is = require('is.js');`
+var is = require('is.js');
 ```
 
 Browser
