@@ -96,7 +96,7 @@ foo.isRegExp()
 // => true
 ```
 
-### Running test
+### Running tests
 
 - First run `npm install -d`
 - Then, run `make`
