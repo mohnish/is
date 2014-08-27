@@ -2,7 +2,7 @@
 
 A tiny component to detect the type of a variable.
 
-![](https://api.travis-ci.org/mohnish/is.js.svg)
+[![Build Status](https://travis-ci.org/mohnish/is.js.svg?branch=master)](https://travis-ci.org/mohnish/is.js)
 
 ## Installation
 
