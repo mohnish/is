@@ -9,8 +9,8 @@ var availableTypes = ['Array', 'Object', 'Number', 'String', 'Undefined', 'Null'
  * @param {Multiple} i Input item
  */
 function is(i) {
-  if (!(this instanceof is)) return new is(i);
   if(0 == arguments.length) throw new Error('"is" needs a value to be passed in.');
+  if (!(this instanceof is)) return new is(i);
 
   var toString = ({}).toString
       , typesRegEx = new RegExp(availableTypes.join('|'));

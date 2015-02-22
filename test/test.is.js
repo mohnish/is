@@ -4,7 +4,7 @@ var is = require('../');
 
 describe('when no argument is passed', function() {
   it('throws an error', function() {
-    (is()).should.throwError();
+    (is()).should.throw('"is" needs a value to be passed in.');
   });
 });
 
