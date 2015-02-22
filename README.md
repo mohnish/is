@@ -3,6 +3,7 @@
 A tiny component to detect the type of a variable.
 
 [![Build Status](https://travis-ci.org/mohnish/is.js.svg?branch=master)](https://travis-ci.org/mohnish/is.js)
+[![Code Climate](https://codeclimate.com/github/mohnish/is.js/badges/gpa.svg)](https://codeclimate.com/github/mohnish/is.js)
 
 ## Installation
 
