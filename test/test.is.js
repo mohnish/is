@@ -2,12 +2,6 @@
 var should = require('should');
 var is = require('../');
 
-describe('when no argument is passed', function() {
-  xit('throws an error', function() {
-    should(is()).throw(Error);
-  });
-});
-
 describe('when the argument is a Number', function() {
   it('returns the type as Number', function() {
     (is(1).type).should.eql('Number');
@@ -48,6 +42,20 @@ describe('when the argument is Null', function() {
   it('returns the type as Null', function() {
     (is(null).type).should.eql('Null');
     (is(null).isNull()).should.be.ok;
+  });
+});
+
+describe('when the argument is Error', function() {
+  it('returns the type as Error', function() {
+    (is(new Error()).type).should.eql('Error');
+    (is(new Error()).isError()).should.be.ok;
+  });
+});
+
+describe('when the argument is Arguments', function() {
+  it('returns the type as Arguments', function() {
+    (is(arguments).type).should.eql('Arguments');
+    (is(arguments).isError()).should.be.ok;
   });
 });
 

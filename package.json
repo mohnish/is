@@ -1,6 +1,6 @@
 {
   "name": "is.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny component to detect the type of a variable",
   "main": "is.js",
   "directories": {
